@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="AutomatedTestingMobile">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/AutomatedTestingMobile.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
