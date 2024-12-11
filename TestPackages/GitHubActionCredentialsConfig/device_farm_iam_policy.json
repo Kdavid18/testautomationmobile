@@ -21,7 +21,7 @@
         "devicefarm:ListUploads",
         "devicefarm:CreateUpload"
       ],
-      "Resource": "arn:aws:devicefarm:us-west-2:${AccountId}:project:${ProjectId}"
+      "Resource": "arn:aws:devicefarm:us-west-2:917730751572:project:f69b4561-c5be-488d-a186-68b7fc8c1e7e"
     },
     {
       "Effect": "Allow",
@@ -29,17 +29,17 @@
         "devicefarm:ScheduleRun"
       ],
       "Resource": [
-        "arn:aws:devicefarm:us-west-2:${AccountId}:project:${ProjectId}",
+        "arn:aws:devicefarm:us-west-2:917730751572:project:f69b4561-c5be-488d-a186-68b7fc8c1e7e",
         "arn:aws:devicefarm:us-west-2::devicepool:*",
-        "arn:aws:devicefarm:us-west-2:${AccountId}:upload:*"
+        "arn:aws:devicefarm:us-west-2:917730751572:upload:*"
       ]
     },
     {
       "Effect": "Allow",
       "Action": "devicefarm:GetRun",
       "Resource": [
-        "arn:aws:devicefarm:us-west-2:${AccountId}:run:*",
-        "arn:aws:devicefarm:us-west-2:${AccountId}:project:${ProjectId}"
+        "arn:aws:devicefarm:us-west-2:917730751572:run:*",
+        "arn:aws:devicefarm:us-west-2:917730751572:project:f69b4561-c5be-488d-a186-68b7fc8c1e7e"
       ]
     },
     {
@@ -50,8 +50,8 @@
         "devicefarm:DeleteUpload"
       ],
       "Resource": [
-        "arn:aws:devicefarm:us-west-2:${AccountId}:upload:*",
-        "arn:aws:devicefarm:us-west-2:${AccountId}:project:${ProjectId}"
+        "arn:aws:devicefarm:us-west-2:917730751572:upload:*",
+        "arn:aws:devicefarm:us-west-2:917730751572:project:f69b4561-c5be-488d-a186-68b7fc8c1e7e"
       ]
     }
   ]

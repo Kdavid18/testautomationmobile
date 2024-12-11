@@ -17,8 +17,8 @@ aws cloudformation create-stack \
   --stack-name GitHubActionCredentials \
   --template-body file://configure-github-action-credentials.yml \
   --parameters \
-      ParameterKey=GitHubOrg,ParameterValue='' \
-      ParameterKey=RepositoryName,ParameterValue='' \
+      ParameterKey=GitHubOrg,ParameterValue='Kdavid18' \
+      ParameterKey=RepositoryName,ParameterValue='testautomationmobile' \
       ParameterKey=OIDCProviderArn,ParameterValue='' \
   --capabilities CAPABILITY_NAMED_IAM
 
